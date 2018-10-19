@@ -9,6 +9,7 @@
 import UIKit
 
 class GroupViewController: UITableViewController {
+    var group: Group!
 
     @IBAction func swichChanged(_ sender: UISwitch) {
     }
