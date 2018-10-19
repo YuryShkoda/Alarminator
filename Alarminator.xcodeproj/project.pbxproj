@@ -12,6 +12,8 @@
 		D23DE560217947F000F6649D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23DE55E217947F000F6649D /* Main.storyboard */; };
 		D23DE562217947F100F6649D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23DE561217947F100F6649D /* Assets.xcassets */; };
 		D23DE565217947F100F6649D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23DE563217947F100F6649D /* LaunchScreen.storyboard */; };
+		D2BFBB8C217A2CA60074A255 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFBB8B217A2CA60074A255 /* GroupViewController.swift */; };
+		D2BFBB8E217A2CF10074A255 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFBB8D217A2CF10074A255 /* AlarmViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D23DE561217947F100F6649D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D23DE564217947F100F6649D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D23DE566217947F100F6649D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2BFBB8B217A2CA60074A255 /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		D2BFBB8D217A2CF10074A255 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				D23DE55A217947F000F6649D /* AppDelegate.swift */,
 				D23DE55C217947F000F6649D /* ViewController.swift */,
+				D2BFBB8B217A2CA60074A255 /* GroupViewController.swift */,
+				D2BFBB8D217A2CF10074A255 /* AlarmViewController.swift */,
 				D23DE55E217947F000F6649D /* Main.storyboard */,
 				D23DE561217947F100F6649D /* Assets.xcassets */,
 				D23DE563217947F100F6649D /* LaunchScreen.storyboard */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2BFBB8E217A2CF10074A255 /* AlarmViewController.swift in Sources */,
+				D2BFBB8C217A2CA60074A255 /* GroupViewController.swift in Sources */,
 				D23DE55D217947F000F6649D /* ViewController.swift in Sources */,
 				D23DE55B217947F000F6649D /* AppDelegate.swift in Sources */,
 			);
