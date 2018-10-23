@@ -16,6 +16,7 @@
 		D2BFBB8E217A2CF10074A255 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFBB8D217A2CF10074A255 /* AlarmViewController.swift */; };
 		D2BFBB90217A4B0B0074A255 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFBB8F217A4B0B0074A255 /* Group.swift */; };
 		D2BFBB92217A4B1F0074A255 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BFBB91217A4B1F0074A255 /* Alarm.swift */; };
+		D2CC0ABA217F64170083C29A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CC0AB9217F64170083C29A /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D2BFBB8D217A2CF10074A255 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
 		D2BFBB8F217A4B0B0074A255 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		D2BFBB91217A4B1F0074A255 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		D2CC0AB9217F64170083C29A /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		D23DE559217947F000F6649D /* Alarminator */ = {
 			isa = PBXGroup;
 			children = (
+				D2CC0AB9217F64170083C29A /* Helper.swift */,
 				D23DE55A217947F000F6649D /* AppDelegate.swift */,
 				D23DE55C217947F000F6649D /* ViewController.swift */,
 				D2BFBB93217A4D9A0074A255 /* Model */,
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2BFBB8E217A2CF10074A255 /* AlarmViewController.swift in Sources */,
+				D2CC0ABA217F64170083C29A /* Helper.swift in Sources */,
 				D2BFBB8C217A2CA60074A255 /* GroupViewController.swift in Sources */,
 				D23DE55D217947F000F6649D /* ViewController.swift in Sources */,
 				D2BFBB90217A4B0B0074A255 /* Group.swift in Sources */,

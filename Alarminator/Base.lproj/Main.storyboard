@@ -275,7 +275,6 @@
                                                     <gestureRecognizers/>
                                                     <connections>
                                                         <outletCollection property="gestureRecognizers" destination="Ibe-0r-b5y" appends="YES" id="J5A-ZO-UlF"/>
-                                                        <outletCollection property="gestureRecognizers" destination="Ibe-0r-b5y" appends="YES" id="Plx-FV-na9"/>
                                                     </connections>
                                                 </imageView>
                                             </subviews>
@@ -300,6 +299,7 @@
                     <connections>
                         <outlet property="caption" destination="aqo-U3-VD2" id="vs1-iy-VLd"/>
                         <outlet property="datePicker" destination="7Z4-IO-jOs" id="2g1-7b-1AW"/>
+                        <outlet property="imageView" destination="BKD-22-Anh" id="uUm-Z8-cfA"/>
                         <outlet property="name" destination="nJu-X4-CRZ" id="UWB-0A-Wh6"/>
                         <outlet property="tapToSelectImage" destination="6Oq-v3-LYS" id="yx4-IQ-o7i"/>
                     </connections>
