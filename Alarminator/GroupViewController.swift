@@ -132,6 +132,10 @@ class GroupViewController: UITableViewController, UITextFieldDelegate {
         performSegue(withIdentifier: "EditAlarm", sender: newAlarm)
     }
     
+    @objc func save() {
+        NotificationCenter.default.post(name: Notification.Name("save"), object: nil)
+    }
+    
     func textFieldDidEndEditing(_ textField: UITextField) {
         group.name = textField.text!
         
