@@ -64,10 +64,10 @@
 		D23DE559217947F000F6649D /* Alarminator */ = {
 			isa = PBXGroup;
 			children = (
+				D2BFBB93217A4D9A0074A255 /* Model */,
 				D2CC0AB9217F64170083C29A /* Helper.swift */,
 				D23DE55A217947F000F6649D /* AppDelegate.swift */,
 				D23DE55C217947F000F6649D /* ViewController.swift */,
-				D2BFBB93217A4D9A0074A255 /* Model */,
 				D2BFBB8B217A2CA60074A255 /* GroupViewController.swift */,
 				D2BFBB8D217A2CF10074A255 /* AlarmViewController.swift */,
 				D23DE55E217947F000F6649D /* Main.storyboard */,

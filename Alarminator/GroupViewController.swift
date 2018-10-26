@@ -16,6 +16,8 @@ class GroupViewController: UITableViewController, UITextFieldDelegate {
 
     @IBAction func swichChanged(_ sender: UISwitch) {
         if sender.tag == playSoundTag { group.playSound = sender.isOn } else { group.enabled = sender.isOn }
+        
+        save()
     }
     
     override func viewDidLoad() {
